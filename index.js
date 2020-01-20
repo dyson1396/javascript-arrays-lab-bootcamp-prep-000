@@ -5,5 +5,5 @@ function destructivelyAppendKitten(name) {
 }
 
 function destructivelyPrependKitten(name) {
-  return 
+  return kittens.unshift(name)
 }
